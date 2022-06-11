@@ -1,0 +1,261 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  .b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+
+  .b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+  }
+
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+
+  .nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
+
+  .nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .btn-outline-primary {
+    color: #004799;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    border-width: 2px;
+}
+
+.btn-primary{
+  color: #004799;
+  background-color: #ffffff;
+  border-color: #ffffff;
+  border-width: 2px;
+}
+
+.btn-secondary{
+  color: #ffffff;
+  background-color: #008bd9;
+  border-color: #008bd9;
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 50px;
+  width: 50px;
+  outline: #2ba1e7;
+  background-size: 100%, 100%;
+  border-radius: 80%;
+  border: 2px solid #2ba1e7;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 28px;
+  color: #2ba1e7;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 28px;
+  color: #2ba1e7;
+}
+
+.bg{
+  color:#008bd9;
+  background-color: white;
+  border-color:#eafcff;
+}
+
+
+.text-small {
+  font-size: 0.9rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+.form-control {
+  background: #212529;
+  border-color: #545454;
+}
+
+.form-control:focus {
+  background: #212529;
+}
+
+footer {
+  background: #212529;
+}
+
+ 
+.btn.btn-social-icon{
+    width: 50px;
+    height: 50px;
+    padding: 0;
+}
+.template-demo > .btn{
+    margin-right: 0.5rem !important;
+}
+
+.template-demo{
+    margin-top: 0.5rem !important;
+}
+
+.btn.btn-rounded {
+    border-radius: 50px;
+}
+
+
+.btn-outline-facebook {
+    border: 1px solid #3b579d;
+    color: #3b579d;
+}
+
+.btn-outline-facebook:hover {
+    background: #3b579d;
+    color: #ffffff;
+}
+
+.btn-outline-youtube {
+    border: 1px solid #e52d27;
+    color: #e52d27;
+}
+
+.btn-outline-twitter {
+    border: 1px solid #2caae1;
+    color: #2caae1;
+}
+
+.btn-outline-dribbble {
+    border: 1px solid #ea4c89;
+    color: #ea4c89;
+}
+
+.btn-outline-linkedin {
+    border: 1px solid #0177b5;
+    color: #0177b5;
+}
+
+.btn-outline-instagram {
+    border: 1px solid #dc4a38;
+    color: #dc4a38;
+}
+
+.btn-outline-twitter:hover {
+    background: #2caae1;
+    color: #ffffff;
+}
+
+.btn-outline-linkedin:hover {
+    background: #0177b5;
+    color: #ffffff;
+}
+
+.btn-outline-youtube:hover {
+    background: #e52d27;
+    color: #ffffff;
+}
+
+.btn-outline-instagram:hover{
+    background: #e52d27;
+    color: #ffffff;
+}
+
+
+/*Button cover*/
+
+.btn-facebook {
+    background: #3b579d;
+    color: #ffffff;
+}
+
+.btn-youtube {
+    background: #e52d27;
+    color: #ffffff;
+}
+
+.btn-twitter {
+    background: #2caae1;
+    color: #ffffff;
+}
+.btn-dribbble {
+    background: #ea4c89;
+    color: #ffffff;
+}
+.btn-linkedin {
+    background: #0177b5;
+    color: #ffffff;
+}
+.btn-instagram {
+    background: #dc4a38;
+    color: #ffffff;
+}
+
+.btn-facebook:hover, .btn-facebook:focus {
+    background: #2d4278;
+    color: #ffffff;
+}
+
+.btn-youtube:hover, .btn-youtube:focus {
+    background: #c21d17;
+    color: #ffffff;
+}
+.btn-twitter:hover, .btn-twitter:focus {
+    background: #1b8dbf;
+    color: #ffffff;
+}
+.btn-dribbble:hover, .btn-dribbble:focus {
+    background: #e51e6b;
+    color: #ffffff;
+}
+
+.btn-linkedin:hover, .btn-linkedin:focus {
+    background: #015682;
+    color: #ffffff;
+}
+
+.btn-instagram:hover, .btn-instagram:focus {
+    background: #bf3322;
+    color: #ffffff;
+}
